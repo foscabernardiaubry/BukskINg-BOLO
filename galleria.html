@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!--TITOLO TAB-->
+    <title>Busking Bolo</title>
+    <!--LETTURA CARATTERI SPECIALI-->
+    <meta charset="utf-8">
+    <!--LINK FOGLIO DI STILE-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--LINK ICONA TAB-->
+    <link rel="icon" href="logo/logo tab.png"> 
+    <!--LINK FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <!--LINK FONTAWESOME-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!--LINK BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">    
+    <!--LINK FANCYBOX-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  </head>
+  <body>
+    <!--SFONDO-->       
+    <img src="logo/sfondo.jpg" alt="sfondo" class="sfondo">
+    <!--NAVBAR-->
+    <header>
+      <nav class="navbar">
+        <ul>              
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="artisti.html">ARTISTI</a></li>
+          <li><a href="mappa.html">MAPPA</a></li>
+          <li><a href="galleria.html" class="active">GALLERIA</a></li>
+          <li><a href="#contatti">CONTATTI</a></li>
+          <li id="registrati"><a href="registrati.html">REGISTRATI<i class="fa-regular fa-user"></i></a></li>
+        </ul>    
+      </nav>
+    </header>
+    <!--LOGO-->
+    <h1 class="logo">
+      <a href="index.html"><img src="logo/logo.png" alt="logo"></a>
+    </h1>
+    <!--TESTO-->
+    <div class="sfondocolore">
+      <p class="testo">Curioso di vedere più foto? Ecco un'<strong>anteprima</strong> di quello che ho scattato. </br><strong>Clicca</strong> sulle immagini se vuoi vederle a <strong>schermo intero</strong> e <strong>scorrere</strong> tra di esse.</p>
+      <div class="galleria1" id="galleriaerick">
+        <div class="galleria__elemento galleria__elemento--1">
+          <a href="imgs/1.JPG" data-fancybox="gallery">
+            <img src="imgs/1.JPG" alt="Immagine della galleria 1" class="galleria__immagine">
+          </a>
+        </div>            
+        <div class="galleria__elemento galleria__elemento--2">
+          <a href="video/erickvideo1.mp4" data-fancybox="gallery"> 
+            <video src="video/erickvideo1.mp4" controls class="d-block w-100" alt="videoerick1"></video>
+          </a>   
+        </div>
+        <div class="galleria__elemento galleria__elemento--3">
+          <a href="video/erickvideo2.mp4" data-fancybox="gallery">
+            <video src="video/erickvideo2.mp4" controls class="d-block w-100" alt="videoerick2"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--4">
+          <a href="imgs/4.JPG" data-fancybox="gallery">
+            <img src="imgs/4.JPG" alt="Immagine della galleria 4" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--5">
+          <a href="imgs/5.JPG" data-fancybox="gallery">
+            <img src="imgs/5.JPG" alt="Immagine della galleria 5" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--6">
+          <a href="video/erickvideo3.mp4" data-fancybox="gallery">
+            <video src="video/erickvideo3.mp4" controls class="d-block w-100" alt="videoerick3"></video>
+          </a>
+        </div>  
+        <div class="galleria__elemento galleria__elemento--7">
+          <a href="imgs/7.jpg" data-fancybox="gallery">
+            <img src="imgs/7.jpg" alt="Immagine della galleria 7" class="galleria__immagine">
+          </a>  
+        </div>
+      </div>
+      <div class="galleria2" id="gallerialuciano">
+        <div class="galleria__elemento galleria__elemento--8">
+          <a href="imgs/8.jpg" data-fancybox="gallery">
+            <img src="imgs/8.jpg" alt="Immagine della galleria 8" class="galleria__immagine">
+          </a>
+        </div>            
+        <div class="galleria__elemento galleria__elemento--9">
+          <a href="imgs/9.JPG" data-fancybox="gallery">
+            <img src="imgs/9.JPG" alt="Immagine della galleria 9" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--10">
+          <a href="imgs/10.JPG" data-fancybox="gallery">
+            <img src="imgs/10.JPG" alt="Immagine della galleria 10" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--11">
+          <a href="imgs/11.JPG" data-fancybox="gallery">  
+            <img src="imgs/11.JPG" alt="Immagine della galleria 11" class="galleria__immagine">
+          </a>            
+        </div>  
+        <div class="galleria__elemento galleria__elemento--12">
+          <a href="imgs/12.JPG" data-fancybox="gallery">     
+            <img src="imgs/12.JPG" alt="Immagine della galleria 11" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--13">
+          <a href="video/lucianovideo1.mp4" data-fancybox="gallery">
+            <video src="video/lucianovideo1.mp4" controls class="d-block w-100" alt="videoluciano1"></video>
+          </a>           
+        </div> 
+        <div class="galleria__elemento galleria__elemento--14">
+          <a href="video/lucianovideo2.mp4" data-fancybox="gallery">
+            <video src="video/lucianovideo2.mp4" controls class="d-block w-100" alt="videoluciano2"></video>
+          </a>
+        </div>   
+      </div>
+      <div class="galleria1" id="galleriadavide">
+        <div class="galleria__elemento galleria__elemento--1">
+          <a href="imgs/15.JPG" data-fancybox="gallery">
+            <img src="imgs/15.JPG" alt="Immagine della galleria 15" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--2">
+          <a href="imgs/16.JPG" data-fancybox="gallery">   
+            <img src="imgs/16.JPG" alt="Immagine della galleria 16" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--3">
+          <a href="imgs/17.JPG" data-fancybox="gallery">  
+            <img src="imgs/17.JPG" alt="Immagine della galleria 17" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--4">
+          <a href="imgs/18.jpg" data-fancybox="gallery">
+            <img src="imgs/18.jpg" alt="Immagine della galleria 18" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--5">
+          <a href="video/davidevideo1.mp4" data-fancybox="gallery">
+            <video src="video/davidevideo1.mp4" controls class="d-block w-100" alt="videodavide1"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--6">
+          <a href="video/davidevideo2.mp4" data-fancybox="gallery">
+            <video src="video/davidevideo2.mp4" controls class="d-block w-100" alt="videodavide2"></video>
+          </a>
+        </div>  
+        <div class="galleria__elemento galleria__elemento--7">
+          <a href="imgs/21.jpg" data-fancybox="gallery">
+            <img src="imgs/21.jpg" alt="Immagine della galleria 21" class="galleria__immagine">
+          </a>
+        </div>
+      </div>  
+      <div class="galleria2" id="gallerialeo">
+        <div class="galleria__elemento galleria__elemento--8">
+          <a href="imgs/22.jpg" data-fancybox="gallery">  
+            <img src="imgs/22.jpg" alt="Immagine della galleria 22" class="galleria__immagine">
+          </a> 
+        </div>            
+        <div class="galleria__elemento galleria__elemento--9">
+          <a href="imgs/23.JPG" data-fancybox="gallery">
+            <img src="imgs/23.JPG" alt="Immagine della galleria 23" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--10">
+          <a href="video/leovideo1.mp4" data-fancybox="gallery">
+            <video src="video/leovideo1.mp4" controls class="d-block w-100" alt="videoleo1"></video>
+          </a> 
+        </div>
+        <div class="galleria__elemento galleria__elemento--11">
+          <a href="video/leovideo2.mp4" data-fancybox="gallery">
+           <video src="video/leovideo2.mp4" controls class="d-block w-100" alt="videoleo2"></video>
+          </a>  
+        </div>  
+        <div class="galleria__elemento galleria__elemento--12">
+          <a href="imgs/26.JPG" data-fancybox="gallery">
+            <img src="imgs/26.JPG" alt="Immagine della galleria 26" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--13">
+          <a href="imgs/27.JPG" data-fancybox="gallery">
+            <img src="imgs/27.JPG" alt="Immagine della galleria 27" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--14">
+          <a href="video/leovideo3.mp4" data-fancybox="gallery">
+            <video src="video/leovideo3.mp4" controls class="d-block w-100" alt="videoleo3"></video>
+          </a>  
+        </div>
+      </div>
+      <div class="galleria3">
+        <div class="galleria__elemento galleria__elemento--15">
+          <a href="imgs/29.JPG" data-fancybox="gallery"> 
+            <img src="imgs/29.JPG" alt="Immagine della galleria 29" class="galleria__immagine">
+          </a>                  
+        </div>
+        <div class="galleria__elemento galleria__elemento--16">
+          <a href="imgs/30.JPG" data-fancybox="gallery"> 
+            <img src="imgs/30.JPG" alt="Immagine della galleria 30" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--17">
+          <a href="imgs/31.JPG" data-fancybox="gallery"> 
+            <img src="imgs/31.JPG" alt="Immagine della galleria 31" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--18">
+          <a href="imgs/32.jpg" data-fancybox="gallery">
+            <img src="imgs/32.jpg" alt="Immagine della galleria 32" class="galleria__immagine">
+          </a>  
+        </div>
+      </div>            
+      <div class="galleria1" id="galleriacri">
+        <div class="galleria__elemento galleria__elemento--1">
+          <a href="imgs/33.jpg" data-fancybox="gallery">
+            <img src="imgs/33.jpg" alt="Immagine della galleria 33" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--2">
+          <a href="imgs/34.JPG" data-fancybox="gallery">
+            <img src="imgs/34.JPG" alt="Immagine della galleria 34" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--3">
+          <a href="imgs/35.JPG" data-fancybox="gallery">
+            <img src="imgs/35.JPG" alt="Immagine della galleria 35" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--4">
+          <a href="imgs/36.JPG" data-fancybox="gallery">
+            <img src="imgs/36.JPG" alt="Immagine della galleria 36" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--5">
+          <a href="imgs/37.jpg" data-fancybox="gallery">
+            <img src="imgs/37.jpg" alt="Immagine della galleria 37" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--6">
+          <a href="video/crivideo1.mp4" data-fancybox="gallery">
+            <video src="video/crivideo1.mp4" controls class="d-block w-100" alt="videocristian1"></video>
+          </a>
+        </div>  
+        <div class="galleria__elemento galleria__elemento--7">
+          <a href="imgs/39.jpg" data-fancybox="gallery">
+            <img src="imgs/39.jpg" alt="Immagine della galleria 39" class="galleria__immagine">
+          </a>
+        </div>
+      </div>
+      <div class="galleria2" id="gallerianiko">
+        <div class="galleria__elemento galleria__elemento--8">
+          <a href="imgs/40.JPG" data-fancybox="gallery">
+            <img src="imgs/40.JPG" alt="Immagine della galleria 40" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--9">
+          <a href="imgs/41.JPG" data-fancybox="gallery">
+            <img src="imgs/41.JPG" alt="Immagine della galleria 41" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--10">
+          <a href="imgs/42.JPG" data-fancybox="gallery">
+            <img src="imgs/42.JPG" alt="Immagine della galleria 42" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--11">
+          <a href="imgs/43.JPG" data-fancybox="gallery">
+            <img src="imgs/43.JPG" alt="Immagine della galleria 43" class="galleria__immagine">
+          </a>  
+        </div>  
+        <div class="galleria__elemento galleria__elemento--12">
+          <a href="imgs/44.jpg" data-fancybox="gallery">
+            <img src="imgs/44.jpg" alt="Immagine della galleria 44" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--13">
+          <a href="imgs/45.JPG" data-fancybox="gallery">
+            <img src="imgs/45.JPG" alt="Immagine della galleria 45" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--14">
+          <a href="imgs/46.jpg" data-fancybox="gallery">
+            <img src="imgs/46.JPG" alt="Immagine della galleria 46" class="galleria__immagine">
+          </a>  
+        </div>
+      </div>
+      <div class="galleria3">
+        <div class="galleria__elemento galleria__elemento--15">
+          <a href="video/nikovideo1.mp4" data-fancybox="gallery">
+            <video src="video/nikovideo1.mp4" controls class="d-block w-100" alt="videoniko1"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--16">
+          <a href="video/nikovideo2.mp4" data-fancybox="gallery">
+            <video src="video/nikovideo2.mp4" controls class="d-block w-100" alt="videoniko2"></video>
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--17">
+          <a href="video/nikovideo3.mp4" data-fancybox="gallery">
+            <video src="video/nikovideo3.mp4" controls class="d-block w-100" alt="videoniko3"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--18">
+          <a href="video/nikovideo4.mp4" data-fancybox="gallery">
+           <video src="video/nikovideo4.mp4" controls class="d-block w-100" alt="videoniko4"></video>
+          </a>          
+        </div>
+      </div>
+      <div class="galleria1" id="galleriapavlo">
+        <div class="galleria__elemento galleria__elemento--1">
+          <a href="imgs/51.JPG" data-fancybox="gallery">
+            <img src="imgs/51.JPG" alt="Immagine della galleria 51" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--2">
+          <a href="video/pavlovideo1.mp4" data-fancybox="gallery">
+            <video src="video/pavlovideo1.mp4" controls class="d-block w-100" alt="videopavlo1"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--3">
+          <a href="video/pavlovideo2.mp4" data-fancybox="gallery">
+            <video src="video/pavlovideo2.mp4" controls class="d-block w-100" alt="videopavlo2"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--4">
+          <a href="imgs/54.jpg" data-fancybox="gallery">
+            <img src="imgs/54.jpg" alt="Immagine della galleria 54" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--5">
+          <a href="imgs/55.JPG" data-fancybox="gallery">
+            <img src="imgs/55.JPG" alt="Immagine della galleria 55" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--6">
+          <a href="video/pavlovideo3.mp4" data-fancybox="gallery">
+            <video src="video/pavlovideo3.mp4" controls class="d-block w-100" alt="videopavlo3"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--7">
+          <a href="imgs/57.jpg" data-fancybox="gallery">
+            <img src="imgs/57.jpg" alt="Immagine della galleria 39" class="galleria__immagine">
+          </a>  
+        </div>
+      </div>
+      <div class="galleria2" id="galleriaandrea">
+        <div class="galleria__elemento galleria__elemento--8">
+          <a href="imgs/58.JPG" data-fancybox="gallery">
+            <img src="imgs/58.JPG" alt="Immagine della galleria 58" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--9">
+          <a href="video/andreavideo1.mp4" data-fancybox="gallery">
+            <video src="video/andreavideo1.mp4" controls class="d-block w-100" alt="videoandrea1"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--10">
+          <a href="imgs/60.jpg" data-fancybox="gallery">
+            <img src="imgs/60.jpg" alt="Immagine della galleria 60" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--11">
+          <a href="imgs/61.JPG" data-fancybox="gallery">
+            <img src="imgs/61.JPG" alt="Immagine della galleria 61" class="galleria__immagine">
+          </a>
+        </div>  
+        <div class="galleria__elemento galleria__elemento--12">
+          <a href="video/andreavideo2.mp4" data-fancybox="gallery">
+            <video src="video/andreavideo2.mp4" controls class="d-block w-100" alt="videoandrea2"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--13">
+          <a href="video/andreavideo3.mp4" data-fancybox="gallery">
+            <video src="video/andreavideo3.mp4" controls class="d-block w-100" alt="videoandrea3"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--14">
+          <a href="imgs/64.jpg" data-fancybox="gallery">
+            <img src="imgs/64.jpg" alt="Immagine della galleria 64" class="galleria__immagine">
+          </a>  
+        </div>
+      </div>
+      <div class="galleria1" id="galleriakristen">
+        <div class="galleria__elemento galleria__elemento--1">
+          <a href="imgs/65.jpg" data-fancybox="gallery">
+            <img src="imgs/65.jpg" alt="Immagine della galleria 65" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--2">
+          <a href="imgs/66.jpg" data-fancybox="gallery">
+            <img src="imgs/66.jpg" alt="Immagine della galleria 66" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--3">
+          <a href="imgs/67.jpg" data-fancybox="gallery">
+            <img src="imgs/67.jpg" alt="Immagine della galleria 67" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--4">
+          <a href="imgs/68.JPG" data-fancybox="gallery"> 
+            <img src="imgs/68.JPG" alt="Immagine della galleria 68" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--5">
+          <a href="video/kristenvideo1.mp4"data-fancybox="gallery">
+            <video src="video/kristenvideo1.mp4" controls class="d-block w-100" alt="videokristen1"></video>
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--6">
+          <a href="video/kristenvideo2.mp4" data-fancybox="gallery">
+            <video src="video/kristenvideo2.mp4" controls class="d-block w-100" alt="videokristen2"></video>
+          </a>
+        </div>  
+        <div class="galleria__elemento galleria__elemento--7">
+          <a href="imgs/71.JPG" data-fancybox="gallery">
+            <img src="imgs/71.JPG" alt="Immagine della galleria 71" class="galleria__immagine">
+          </a>  
+        </div>
+      </div>
+      <div class="galleria2" id="galleriakaram">
+        <div class="galleria__elemento galleria__elemento--8">
+          <a href="imgs/72.jpg" data-fancybox="gallery">
+            <img src="imgs/72.jpg" alt="Immagine della galleria 72" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--9">
+          <a href="imgs/73.jpg" data-fancybox="gallery">
+            <img src="imgs/73.jpg" alt="Immagine della galleria 73" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--10">
+          <a href="imgs/74.JPG" data-fancybox="gallery">
+            <img src="imgs/74.JPG" alt="Immagine della galleria 74" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--11">
+          <a href="imgs/75.jpg" data-fancybox="gallery">
+            <img src="imgs/75.jpg" alt="Immagine della galleria 75" class="galleria__immagine">
+          </a>  
+        </div>  
+        <div class="galleria__elemento galleria__elemento--12">
+          <a href="imgs/76.JPG" data-fancybox="gallery">
+            <img src="imgs/76.JPG" alt="Immagine della galleria 76" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--13">
+          <a href="video/karamvideo1.mp4" data-fancybox="gallery">
+            <video src="video/karamvideo1.mp4" controls class="d-block w-100" alt="videokaram1"></video>
+          </a>        
+        </div> 
+        <div class="galleria__elemento galleria__elemento--14">
+          <a href="video/karamvideo2.mp4" data-fancybox="gallery">
+            <video src="video/karamvideo2.mp4" controls class="d-block w-100" alt="videokaram2"></video>
+          </a>
+        </div>   
+      </div>
+      <div class="galleria1" id="galleriaspacca">
+        <div class="galleria__elemento galleria__elemento--1">
+          <a href="imgs/79.JPG" data-fancybox="gallery">
+            <img src="imgs/79.JPG" alt="Immagine della galleria 79" class="galleria__immagine">
+          </a>  
+        </div>            
+        <div class="galleria__elemento galleria__elemento--2">
+          <a href="imgs/80.JPG" data-fancybox="gallery">
+            <img src="imgs/80.JPG" alt="Immagine della galleria 80" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--3">
+          <a href="imgs/81.JPG" data-fancybox="gallery">
+            <img src="imgs/81.JPG"alt="Immagine della galleria 81" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--4">
+          <a href="imgs/82.JPG" data-fancybox="gallery">
+            <img src="imgs/82.JPG" alt="Immagine della galleria 82" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--5">
+          <a href="video/spaccavideo1.mp4" data-fancybox="gallery">
+            <video src="video/spaccavideo1.mp4" controls class="d-block w-100" alt="videospaccailsilenzio1"></video>
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--6">
+          <a href="video/spaccavideo2.mp4" data-fancybox="gallery"> 
+            <video src="video/spaccavideo2.mp4" controls class="d-block w-100" alt="videospaccailsilenzio2"></video>
+          </a>
+        </div>  
+        <div class="galleria__elemento galleria__elemento--7">
+          <a href="imgs/85.JPG" data-fancybox="gallery">
+            <img src="imgs/85.JPG" alt="Immagine della galleria 85" class="galleria__immagine">
+          </a>
+        </div>
+      </div>           
+      <div class="galleria4">
+        <div class="galleria__elemento galleria__elemento--19">
+          <a href="imgs/86.JPG" data-fancybox="gallery">
+            <img src="imgs/86.JPG" alt="Immagine della galleria 86" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--20">
+          <a href="imgs/87.JPG" data-fancybox="gallery">
+            <img src="imgs/87.JPG" alt="Immagine della galleria 87" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--21">
+          <a href="imgs/88.JPG" data-fancybox="gallery">
+            <img src="imgs/88.JPG" alt="Immagine della galleria 88" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--22">
+          <a href="imgs/89.jpg" data-fancybox="gallery">
+            <img src="imgs/89.jpg" alt="Immagine della galleria 89" class="galleria__immagine">
+          </a>        
+        </div>
+        <div class="galleria__elemento galleria__elemento--23">
+          <a href="imgs/90.JPG" data-fancybox="gallery">
+            <img src="imgs/90.JPG" alt="Immagine della galleria 90" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--24">
+          <a href="imgs/91.JPG" data-fancybox="gallery">
+            <img src="imgs/91.JPG" alt="Immagine della galleria 91" class="galleria__immagine">
+          </a>  
+        </div>
+        <div class="galleria__elemento galleria__elemento--25">
+          <a href="imgs/92.JPG" data-fancybox="gallery">
+            <img src="imgs/92.JPG" alt="Immagine della galleria 92" class="galleria__immagine">
+          </a>
+        </div>
+        <div class="galleria__elemento galleria__elemento--26">
+          <a href="imgs/93.JPG" data-fancybox="gallery">
+            <img src="imgs/93.JPG" alt="Immagine della galleria 93" class="galleria__immagine">
+          </a>
+        </div>
+      </div>
+    </div>        
+    <!--FOOTER-->
+    <footer id="footer"> 
+      <div id="logocontatti">        
+        <a href="index.html"><img src="logo/logo tab.png" alt="logo"></a>
+      </div>
+      <h6 id="contatti">CONTATTI</h6>
+      <a href="mailto:buskingbolo@gmail.com" class="textcard">buskingbolo@gmail.com</a>
+      <p><a href="https://www.instagram.com/buskingbolo/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href=https://www.facebook.com/profile.php?id=100093208067784 target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+      <p>Sito realizzato da Fosca Bernardi Aubry</p>
+    </footer>
+  </body>
+</html> 

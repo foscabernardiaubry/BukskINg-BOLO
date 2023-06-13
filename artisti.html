@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <!--TITOLO TAB-->
+        <title>Busking Bolo</title>
+        <!--LETTURA CARATTERI SPECIALI-->
+        <meta charset="utf-8">
+        <!--LINK FOGLIO DI STILE-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--LINK ICONA TAB-->
+        <link rel="icon" href="logo/logo tab.png"> 
+        <!--LINK FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   
+        <!--LINK FONTAWESOME-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <!--LINK BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <!--SFONDO-->       
+    <img src="logo/sfondo.jpg" alt="sfondo" class="sfondo">
+    <!--NAVBAR-->
+       <header>
+            <nav class="navbar">
+                <ul>              
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="artisti.html" class="active">ARTISTI</a></li>
+                    <li><a href="mappa.html">MAPPA</a></li>
+                    <li><a href="galleria.html">GALLERIA</a></li>
+                    <li><a href="#contatti">CONTATTI</a></li>
+                    <li id="registrati"><a href="registrati.html">REGISTRATI<i class="fa-regular fa-user"></i></a></li>
+                </ul>    
+            </nav>
+        </header>
+        <!--LOGO-->
+        <h1 class="logo">
+            <a href="index.html"><img src="logo/logo.png" alt="logo"></a>
+        </h1>
+        <!--CAROSELLO FOTO-->
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselerick" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/erickhome.jpeg" class="d-block w-100" alt="ericksolaegiammarcopiccionidossantos">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/erick2.jpeg" class="d-block w-100" alt="ericksolaegiammarcopiccionidossantos">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/erick3.jpeg" class="d-block w-100" alt="ericksolaegiammarcopiccionidossantos">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/erickvideo1.mp4" controls class="d-block w-100" alt="ericksolaegiammarcopiccionidossantos"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/erickvideo2.mp4" controls class="d-block w-100" alt="ericksolaegiammarcopiccionidossantos"></video>
+                            </div>    
+                            <div class="carousel-item">
+                                <video src="video//erickvideo3.mp4" controls class="d-block w-100" alt="ericksolaegiammarcopiccionidossantos"></video>
+                            </div>                             
+                            <a class="carousel-control-prev" href="#carouselerick" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselerick" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Erick Sola 
+                        <a href="https://www.instagram.com/erick_sola_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/fedesola98" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@erick_sola_" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://open.spotify.com/artist/0Buy4nc2LSelTRB4RCSy4e?si=0fm1WgviREWDUSJdB1aXvw" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/channel/UCtBOEX2aITW8lxMTlmCoKng" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#galleriaerick"><i class="fa-solid fa-image"></i></a> 
+                    </br> e Giammarco Piccioni dos Santos</b> 
+                        <a href="https://gpds.info/" target="_blank"><i class="fa-solid fa-circle-info"></i></a>
+                        <a href="galleria.html#galleriaerick"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">Il primo calabrese, il secondo portoghese, si sono conosciuti suonando per le strade di Bologna. <b>Erick</b>, 25 anni, ex cameriere, fa il busker da un anno e mezzo e da quando ha cominciato non vuole fare altro. </br>Diplomato alla Music Academy, suona la chitarra, il basso e scrive. </br> Ha cinque brani pubblicati su Spotify, che se sei fortunato potrai sentire dal vivo insieme a cover di brani pop-rock. La sua musica tratta <strong>argomenti personali</strong> ma allo stesso tempo di <strong>vita comune</strong>.</br> Viene spesso accompagnato dall’amico <b>Giammarco</b>, pianista diplomato al Conservatorio in musica per il cinema, che si definisce “un ragazzo portoghese anni ’90 innamorato della musica punk-rock”. </br>Alla domanda “Come ti senti quando suoni?” il primo risponde “<strong>libero di sognare</strong>”, mentre il secondo parla di “<strong>comunione</strong> e <strong>condivisione</strong>”. </br> Sono concordi sul fatto che fare busking sia un modo per <strong>essere sé stessi</strong> e <strong>dire la propria</strong> al mondo. 
+                    </p>     
+                </div>    
+            </div>             
+        </section>         
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselluciano" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/lucianohome.jpeg" class="d-block w-100" alt="lucianofavara">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/luciano2.jpeg" class="d-block w-100" alt="lucianofavara">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/luciano3.jpeg" class="d-block w-100" alt="lucianofavara">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/lucianovideo1.mp4" controls class="d-block w-100" alt="lucianofavara"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/lucianovideo2.mp4" controls class="d-block w-100" alt="lucianofavara"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselluciano" role="button" data-slide="prev">
+                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                               <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselluciano" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Luciano Favara</b>
+                        <a href="https://www.instagram.com/_lucianofavara_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/luciano.favara" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://open.spotify.com/artist/49c3F9NgiIZn1YTGcBXPFY?si=DC8C-D12SEGq4S8Bd526gA" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/@lucianofavara5642" target="_blank"><i class="fa-brands fa-youtube"></i></a>   
+                        <a href="galleria.html#gallerialuciano"><i class="fa-solid fa-image"></i></a> 
+                    </h3>
+                    <p class="testocarosello">
+                        Classe 1978, originario di Castelvetrano (Trapani), vive a Milano. </br>La musica ha sempre fatto parte della sua vita, suona la chitarra da quando aveva 12 anni. Da sette anni suona per la strada, principalmente in Lombardia allontanandosi ogni tanto. </br>Io l’ho conosciuto a Bologna e ho scoperto che ha un modo di fare busking che non è da tutti: <strong>chiede al pubblico</strong> cosa vuole sentire, ad orecchio risale agli accordi, col tablet al testo e il gioco è fatto. </br>Per lui suonare in strada vuol dire <strong>colorare</strong> uno scorcio di una città creando un’<strong>atmosfera</strong>. </br>Dopo dieci anni vissuti all’estero parla dell’Italia come di un paese da una bellezza che toglie il fiato. Sottolinea quanto gli artisti di strada italiani siano fortunati a suonare in un paese con una così grande ricchezza. “Non è scontato suonare qui” dice “dobbiamo renderci conto della fortuna che abbiamo a vivere in un posto incredibile, non solo dal punto di vista musicale, ma anche storico e monumentale”. </br>E forse è questo allora uno dei motivi che spingono Luciano a suonare per le strade italiane: <strong>valorizzare</strong> dei luoghi così semplicemente belli, proprio per la genuinità che posseggono.</br>Scrive e produce anche suoi pezzi disponibili su Youtube e Spotify.  
+                    </p>     
+                </div>
+            </div>                         
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouseldavide" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/davidehome.jpeg" class="d-block w-100" alt="davideeglialtri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/davide2.jpeg" class="d-block w-100" alt="davideeglialtri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/davide3.jpeg" class="d-block w-100" alt="davideeglialtri">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/davidevideo1.mp4" controls class="d-block w-100" alt="davideeglialtri"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/davidevideo2.mp4" controls class="d-block w-100" alt="davideeglialtri"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouseldavide" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouseldavide" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Davide E Gli Altri</b>
+                        <a href="https://www.instagram.com/davideeglialtri/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/davideolivaribusker" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://open.spotify.com/artist/6ozLYWwxhDLXh6PqfTs4Q0?si=uB9eqUYHSravRcbTHgHrKA" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/@davideolivari2293" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#galleriadavide"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        Davide Olivari, in arte Davide E Gli Altri. 28 anni, originario di Brescia, vive e suona a Bologna. Suona e canta da sedici anni, per la strada fa cover in italiano e in inglese. <strong>Medico</strong> durante la settimana, cantautore nei weekend, definisce la musica come una <strong>terapia</strong>. </br>Ha avviato un progetto in studio da tre anni. Puoi trovare i suoi pezzi su Youtube e Spotify.   
+                    </p>
+                </div>
+            </div>            
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselleo" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/leohome.jpeg" class="d-block w-100" alt="leoredss">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/leo2.jpeg" class="d-block w-100" alt="leoredss">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/leo3.jpeg" class="d-block w-100" alt="leoredss">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/leovideo1.mp4" controls class="d-block w-100" alt="leoredss"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/leovideo2.mp4" controls class="d-block w-100" alt="leoredss"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/leovideo3.mp4" controls class="d-block w-100" alt="leoredss"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselleo" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselleo" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Leo Redss</b>
+                        <a href="https://www.instagram.com/leoredss/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="galleria.html#gallerialeo"><i class="fa-solid fa-image"></i></a>
+                    </h3>                    
+                    <p class="testocarosello">
+                        Leonardo Rossi, in arte Leo Redss. 26 anni, origini toscane, vive a Bologna dal 2019 quando si è trasferito per studiare storia all’Università. Suona la chitarra dalla seconda media, quando i suoi genitori ci hanno visto lungo e gliene hanno regalata una. </br>La prima volta che è stato a Bologna era per venire a trovare la sorella e da quel momento, ispirato da quelli che sarebbero diventati i suoi futuri colleghi, ha deciso di diventare un’artista di strada. </br>Covid permettendo ha cominciato a suonare per strada nel luglio 2020. Studia privatamente <strong>blues</strong> e <strong>jazz</strong> e si esibisce anche nei locali (ad esempio il Cortile Cafè). Per la strada suona cover di <strong>cantautorato italiano</strong> (da quello che ho potuto sentire è un grande fan di De André) e si cimenta in pezzi con la sola chitarra. Al momento non ha ancora nulla di suo, ma in futuro gli piacerebbe scrivere brani strumentali. Quando parla di ciò che fa si definisce "<strong>grato</strong>", innanzitutto verso i genitori che gli hanno aperto la strada della musica, e poi verso il suo pubblico. Un sorriso, una birra offerta, il solo fatto di essere ascoltato per lui fa tutto. Quello che conta è il <strong>lato umano</strong>, anche tra colleghi. </br> Mi parla dispiaciuto della competitività che a volte si instaura tra i busker, competitività che invece dovrebbe essere rimpiazzata dal <strong>rispetto reciproco</strong>, perché la strada è grande e ci si sta tutti. </br>Se vuoi sapere di più puoi dare un'occhiata al suo profilo Instagram. 
+                    </p>
+                </div>
+            </div>            
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselcri" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/crihome.jpeg" class="d-block w-100" alt="hellcri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/cri2.jpeg" class="d-block w-100" alt="hellcri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/cri3.jpeg" class="d-block w-100" alt="hellcri">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/crivideo1.mp4" controls class="d-block w-100" alt="hellcri"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselcri" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselcri" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Hell Cri</b>
+                        <a href="https://www.instagram.com/hellcri_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://open.spotify.com/artist/2GSq6wPBHIhF8L5Dv9Lknw?si=0pYBXZ9hToCa-0pQkvghXg" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/channel/UCa45sQop2OPmkCxDyew0Htg/featured" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#galleriacri"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        Cristian, il più giovane. 17 anni, di Mirandola, suona per strada solo da qualche mese. Passeggiavo per via Indipendenza quando ha attirato la mia attenzione. Il modo in cui tocca le corde della chitarra con le dita è incredibile per un ragazzo così giovane. Mi racconta che suona la chitarra da quattro anni, di cui gli ultimi due sono stati molto intensi. </br>Per lui suonare è una cosa totalmente <strong>naturale</strong>, ed è stato proprio così che ha iniziato a farlo: perché gli sembrava una cosa facile da fare, e direi che ci è riuscito molto bene. Ex studente dell’Istituto alberghiero, sogna di entrare al Conservatorio. Amante della <strong>musica classica</strong>, si è tatuato sul braccio il numero “<strong>997</strong>”, numero della prima suite di Bach che ha imparato a suonare. In futuro vorrebbe comporre musica classica, “forse anche un po’ di flamenco”. Dall’animo <strong>introverso</strong>, preferisce suonare nella sua camera ma vuole comprarsi una chitarra nuova, quindi ha deciso di mettersi in gioco.</br> Di recente ha aperto un profilo Spotify e un canale Youtube.
+                    </p>    
+                </div>
+            </div>             
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselniko" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/nikohome.jpeg" class="d-block w-100" alt="nikoalbano">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/niko2.jpeg" class="d-block w-100" alt="nikoalbano">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/niko3.jpeg" class="d-block w-100" alt="nikoalbano">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/nikovideo1.mp4" controls class="d-block w-100" alt="nikoalbano"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/nikovideo2.mp4" controls class="d-block w-100" alt="nikoalbano"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/nikovideo3.mp4" controls class="d-block w-100" alt="nikoalbano"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselniko" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselniko" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Niko Albano</b>
+                        <a href="https://www.instagram.com/nikoalbano/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/nikoalbanomusic" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@nikoalbanoconlakappa" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://open.spotify.com/artist/0O3DeHtMP6v7Pd9aizUGB3?si=CaIYoOZpQQqOKV8H1EpE6A" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/@NikoAlbano" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#gallerianiko"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        Niko (Domenico) Albano: <strong>ingegnere</strong> di giorno, cantautore di notte. </br>31 anni, di origini napoletane, vive a Sant’Agata Bolognese (BO). </br>Suona la chitarra da quindici anni, grazie al padre e al nonno che gli hanno trasmesso la passione. Da otto anni è per la strada, la prima volta a Gallipoli, ora un po’ ovunque. Il suo stile musicale è influenzato da artisti britannici come James Morrison, Paolo Nutini e Damien Rice con influssi della musica napoletana e italiana come Pino Daniele, Edoardo Bennato e De Gregori. Il suo genere è il pop italiano e inglese con sonorità british e influenze blues/folk/country. </br>La parola chiave per lui è <strong>libertà</strong>. Consiglia ai suoi colleghi di <strong>non accontentarsi mai</strong> e <strong>buttarsi sempre</strong>. </br>Su Spotify ha fatto uscire tre singoli e un EP. Pubblica periodicamente sui social.
+                    </p> 
+                </div>
+            </div>             
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselpavlo" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/pavlohome.jpeg" class="d-block w-100" alt="pavlocarta">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/pavlo2.jpeg" class="d-block w-100" alt="pavlocarta">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/pavlo3.jpeg" class="d-block w-100" alt="pavlocarta">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/pavlovideo1.mp4" controls class="d-block w-100" alt="pavlocarta"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/pavlovideo2.mp4" controls class="d-block w-100" alt="pavlocarta"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/pavlovideo3.mp4" controls class="d-block w-100" alt="pavlocarta"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselpavlo" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselpavlo" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Pavlo Carta</b>
+                        <a href="https://www.instagram.com/pavlocarta/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/pablo.cartaginese" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://open.spotify.com/artist/5yRI0KnktTs1c97XejXjko?si=J5e9T4v9SgOuOCIFfTQitg" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/channel/UC7qbAwPdx9V4mcGkR0If4fA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#galleriapavlo"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        Pablo Cartaginese, in arte Pavlo Carta. 41 anni, argentino. <br/>Suona il <strong>violoncello</strong> da ventidue anni, inizialmente voleva suonare il sax ma quando ha visto un artista argentino suonare il violoncello si è innamorato. Diplomato al Conservatorio in Argentina, parla della vita accademica come una cosa che lo annoiava e infatti si è diplomato da privatista grazie all’aiuto della sua professoressa. Ha vissuto in Brasile, Spagna e nord Europa. Suona per la strada da quattrodici anni e vive in Italia da due. Vive letteralmente di musica, tra festival, esibizioni in teatri e locali, e busking. Per un certo periodo ha anche dato lezioni private ma gli piace di più stare per strada. Ha girato un sacco, ha inciso tanti dischi e fatto parte di altrettante band, ma è un animo <strong>stravagante</strong> e <strong>solitario</strong> e quello che più gli piace è esibirsi da solo col suo violoncello e la sua <strong>loop station</strong>. La sua stravaganza deriva anche dall’amore per artisti come Astor Piazzolla e Frank Zappa. In pubblico si esibisce alternando pezzi suoi a cover rock tra Red Hot Chili Peppers, Pink Floyd e Pixies. </br>Puoi trovare tutto sui suoi profili social e sul suo canale YouTube e Spotify.
+                    </p>    
+                </div>         
+            </div>            
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselandrea" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/andreahome.jpeg" class="d-block w-100" alt="andreapifferi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/andrea2.jpeg" class="d-block w-100" alt="andreapifferi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/andrea3.jpeg" class="d-block w-100" alt="andreapifferi">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/andreavideo1.mp4" controls class="d-block w-100" alt="andreapifferi"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/andreavideo2.mp4" controls class="d-block w-100" alt="andreapifferi"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/andreavideo3.mp4" controls class="d-block w-100" alt="andreapifferi"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselandrea" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselandrea" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Boccadoro</b>
+                        <a href="https://www.instagram.com/boccadoro__/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="galleria.html#galleriaandrea"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        Andrea Pifferi, in arte Boccadoro. 25 anni, di Reggio Emilia, ex studente fuorisede a Bologna. Suona la chitarra da quindici anni e da quattro è un busker. Si esibisce anche nei locali bolognesi, come il Macondo, lo Spazio400 o l’Altrospazio. Unisce alla passione per la musica quella per la <strong>poesia</strong>: è infatti iscritto al Centro di poesia contemporanea dell’Università di Bologna. La poesia lo ha aiutato nella scrittura dei suoi pezzi, che suona per la strada insieme a cover di cantautorato italiano e a pezzi blues. È un animo <strong>semplice</strong>, confessa che il busking lo ha aiutato a <strong>combattere la sua timidezza</strong> e a <strong>superare l’indifferenza altrui</strong>. Io l’ho ascoltato e ti dirò che ciò che trasmette è una grande <strong>serenità</strong>. </br>Il resto lo trovi sul suo profilo Instagram.
+                    </p> 
+                </div>
+            </div>           
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselkristen" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/kristenhome.jpeg" class="d-block w-100" alt="kristenmastromarchi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/kristen2.jpeg" class="d-block w-100" alt="kristenhome">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/kristen3.jpeg" class="d-block w-100" alt="kristenmastromarchi">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/kristenvideo1.mp4" controls class="d-block w-100" alt="kristenmastromarchi"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/kristenvideo2.mp4" controls class="d-block w-100" alt="kristenmastromarchi"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselkristen" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselkristen" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Kristen Mastromarchi</b>
+                        <a href="https://www.instagram.com/mastromarchi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@kristenmastromarchi14" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#galleriakristen"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        Kristen Mastromarchi, un <strong>animo sensibile</strong> ed <strong>eclettico</strong>, così si definisce. </br>45 anni, di origini statunitensi, è in Italia da più o meno venti anni e a Bologna da dieci. La passione per la musica ce l’ha da sempre, ha studiato musical negli Stati Uniti e canto lirico e musica barocca al Conservatorio in Italia. Fa spettacoli di musica da camera nelle chiese e nelle sale da concerto, da cinque anni è anche una busker. </br>È affascinata da altre epoche, in particolare gli anni '20 e '30 del secolo scorso. Canta qualsiasi musica trova interessante, ma per strada di solito fa <strong>swing</strong> o i classici del <strong>jazz</strong>. Mi ha confessato che quando canta si sente “<strong>accolta</strong>” e, personalmente, posso capire il perché. Sono stata ad ascoltarla per tutto il tempo della sua esibizione e ho felicemente notato che non sono stata l’unica a fermarsi per così tanto tempo. </br>Puoi trovare altri video sul suo canale YouTube.    
+                    </p>
+                </div>
+            </div>           
+        </section>
+        <section class="sfondocolore"> 
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselkaram" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/karamhome.jpeg" class="d-block w-100" alt="karamlefheiel">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/karam2.jpeg" class="d-block w-100" alt="karamlefheiel">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/karam3.jpeg" class="d-block w-100" alt="karamlefheiel">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/karamvideo1.mp4" controls class="d-block w-100" alt="karamlefheiel"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/karamvideo2.mp4" controls class="d-block w-100" alt="karamlefheiel"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselkaram" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselkaram" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-md-11 col-lg-7">
+                    <h3><b>Karam Lefheiel</b>
+                        <a href="https://www.instagram.com/karam_lefheiel/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/karam.lefheiel" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://open.spotify.com/artist/3Z6j2ITICN9jDSn5AIZBBb?si=cTjPQJXlQ8usOvKZgiWOgA" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/@karamlefheiel" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="galleria.html#galleriakaram"><i class="fa-solid fa-image"></i></a>
+                    </h3>
+                    <p class="testocarosello">
+                        29 anni, modenese di origini marocchine. Nato in una famiglia di tutti musicisti suona la chitarra da quando aveva 9 anni. Si è diplomato in chitarra classica al Conservatorio in Marocco, ma è sempre stato appassionato di <strong>flamenco</strong>. Da tre anni in Italia, da due per la strada. Per descrivere cosa prova quando suona ha usato una parola bellissima: “<strong>felice</strong>”, ed effettivamente felicità è proprio ciò che trasmette quando stai ad ascoltarlo. Spesso accompagnato dall’amico Tommy Patchanka alle percussioni, insieme creano un’irresistibile <strong>atmosfera di festa</strong>. </br> Se vuoi vedere di più puoi visitare i suoi profili social.    
+                    </p> 
+                </div>
+            </div>           
+        </section>
+        <section class="sfondocolore">
+            <div class="row">
+                <div class="col-sm-11 col-md-11 col-lg-5">
+                    <div id="carouselspacca" class="carousel slide w-100" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/spaccahome.jpeg" class="d-block w-100" alt="spaccailsilenzio!">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/spacca2.jpeg" class="d-block w-100" alt="spaccailsilenzio!">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/spacca3.jpeg" class="d-block w-100" alt="spaccailsilenzio!">
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/spaccavideo1.mp4" controls class="d-block w-100" alt="spaccailsilenzio!"></video>
+                            </div>
+                            <div class="carousel-item">
+                                <video src="video/spaccavideo2.mp4" controls class="d-block w-100" alt="spaccailsilenzio!"></video>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselspacca" role="button" data-slide="prev">
+                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                               <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselspacca" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-sm-11 col-md-11 col-lg-7">
+                <h3><b>Spaccailsilenzio!</b> 
+                    <a href="https://www.instagram.com/spaccailsilenzio.band/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/SpaccailSilenzioOfficial" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://open.spotify.com/artist/2ZcNv49l5LTqh93tJTL9c7?si=_cijmR6AT2egHD08SO6Mmg" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.youtube.com/@SpaccailSilenzioOfficial" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.spaccailsilenzio.it/" target="_blank"><i class="fa-solid fa-circle-info"></i></a>
+                    <a href="galleria.html#galleriaspacca"><i class="fa-solid fa-image"></i></a>
+                </h3>
+                <p class="testocarosello">                    
+                    Probabilmente il nome ti suona familiare, i fratelli Luigi e Feliciano Grella godono infatti di una buona fama. 45 anni il primo, 42 il secondo, chitarra il primo, basso il secondo, suonano insieme da tutta la vita. Hanno origini napoletane ma si sono trasferiti da ventidue anni a Bologna (dove hanno anche frequentato il DAMS) e da altrettanto tempo si dilettano facendo i busker. Ma la loro attività non si limita a questo, anzi. Tra concerti nei club, nei centri sociali, nei circoli culturali, e ai festival, pensa che hanno persino aperto il concerto di <strong>Vasco Rossi</strong> nel 2001 a Salerno. Ma ti dirò di più, mi hanno raccontato un interessante aneddoto. Nel 2009 erano soliti suonare in via D’Azeglio, via che tutti conoscono perché ci abitava il grande <strong>Lucio Dalla</strong>, e infatti proprio Lucio un giorno è sceso a fare busking con loro. Da lì hanno poi inciso un disco insieme. Hanno ricevuto svariati premi sia singolarmente che per il loro progetto condiviso “Spaccailsilenzio!”, ma nonostante ciò mi parlano con <strong>umiltà</strong> raccontandomi di come per loro la buona realizzazione di ogni brano sia una sorta di <strong>miracolo</strong>. </br>La loro particolarità è che si esibiscono suonando <strong>solo pezzi loro</strong>. </br>Due ragazzi umili che amano ciò che fanno, un consiglio che danno è di <strong>non demordere</strong>, “Hai a disposizione il mondo, se non ti senti compreso puoi sempre cambiare posto perché sicuramente da qualche parte ti accoglieranno a braccia aperte”. </br>Ulteriori informazioni le trovi sul loro sito web e sui loro canali social.    
+                </p>
+            </div>                  
+        </section>                        
+        <!--FOOTER-->
+        <footer id="footer"> 
+        <div id="logocontatti">            
+            <a href="index.html"><img src="logo/logo tab.png" alt="logo"></a>
+        </div>
+        <h6 id="contatti">CONTATTI</h6>
+        <a href="mailto:buskingbolo@gmail.com" class="textcard">buskingbolo@gmail.com</a>
+        <p><a href="https://www.instagram.com/buskingbolo/" target="_blank"><i class="fa-brands fa-instagram"></i></a><a href=https://www.facebook.com/profile.php?id=100093208067784 target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+        <p>Sito realizzato da Fosca Bernardi Aubry</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html> 
